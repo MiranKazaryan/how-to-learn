@@ -306,7 +306,6 @@
 /*Подзаголовок блока Фейнмана*/
 .feynman__subtitle{
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   line-height: 51px;
   font-size: 36px;
@@ -367,7 +366,6 @@
 /*элемент описывает расположение колонок подвала*/
 .footer__columns{
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   position: relative;
   min-height: 350px;
