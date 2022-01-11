@@ -105,7 +105,6 @@
 }
 /*блок таблица из двух столбцов*/
 .two-columns{
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   padding-top: 100px;
@@ -165,7 +164,6 @@
 }
 /*блок заголовок*/
 .section-title{
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   display: flex;
@@ -186,7 +184,6 @@
 }
 /*блок подзаголовок*/
 .section-subtitle{
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   display:flex;
@@ -203,7 +200,6 @@
 }
 /*блок таблица через flex*/
 .table{
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 1100px;
@@ -290,13 +286,10 @@
   left: 0;
   bottom: 0;
   z-index: 1;
-
 }
 /*заголовок блока Фейнмана*/
 .feynman__title{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
