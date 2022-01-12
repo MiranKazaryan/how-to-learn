@@ -33,6 +33,7 @@
   padding: 0;
   margin: 0;
   font:102px/96px bolder;
+  font-family: sans-serif;
   width: 730px;
   margin-left: 64px;
   display: flex;
@@ -49,7 +50,12 @@
   left: 64px;
   width: 388px;
   font:18px/25px normal;
+  font-family: sans-serif;
   z-index: 2;
+}
+
+.header__link{
+  text-decoration: none;
 }
 /*главное изображение шапки сайта*/
 .header__main-illustration{
@@ -329,6 +335,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 /*Блок Кауфмана*/
 .kaufman{
