@@ -29,11 +29,11 @@
   }
 /*название шапки сайта*/
 .header__title{
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font:102px/96px bolder;
-  font-family: sans-serif;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
   width: 730px;
   margin-left: 64px;
   display: flex;
@@ -42,15 +42,15 @@
 }
 /*название лида шапки сайта*/
 .header__subtitle{
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
   width: 388px;
-  font:18px/25px normal;
-  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -60,7 +60,6 @@
 }
 /*главное изображение шапки сайта*/
 .header__main-illustration{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   position:absolute;
@@ -72,7 +71,6 @@
 }
 /* дополнительное изображение квадрата в шапке сайта*/
 .header__square-pic {
-  box-sizing: border-box;
   margin:0;
   padding:0;
   position:absolute;
@@ -92,23 +90,16 @@
   height: 32px;
 }
 /*модификатор расположения логотипа в шапке сайта*/
-.logo_place-header{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.logo_place_header{
   position:absolute;
   top:30px;
   left: 64px;
-
 }
 /*блок описание*/
 .description{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-height: 600px;
-  max-height: 756px;
-
 }
 /*блок таблица из двух столбцов*/
 .two-columns{
@@ -159,27 +150,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-weight: bolder;
+  font-weight: bold;
 }
 /*блок описание цифр*/
 .digits{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  min-height: 600px;
-  max-height: 756px;
 }
 /*блок заголовок*/
 .section-title{
+  margin:0 auto;
   padding: 0;
-  box-sizing: border-box;
   display: flex;
-  margin: auto;
   justify-content: center;
   width: 60%;
   font-size: 60px;
   line-height: 1.15;
-  font-weight: bolder;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 /*модификатор темной темы заголовка*/
@@ -191,10 +179,9 @@
 }
 /*блок подзаголовок*/
 .section-subtitle{
+  margin:0 auto;
   padding: 0;
-  box-sizing: border-box;
   display:flex;
-  margin: auto;
   justify-content: center;
   width: 60%;
   font-size: 24px;
@@ -208,13 +195,12 @@
 /*блок таблица через flex*/
 .table{
   padding: 0;
+  margin: 0 auto;
   box-sizing: border-box;
   width: 1100px;
   display: flex;
-  margin: auto;
   flex-wrap: wrap;
   justify-content:space-between;
-
 }
 /*модификатор темной темы таблицы*/
 .table_theme_dark{
@@ -228,16 +214,11 @@
   padding: 0;
   box-sizing: border-box;
   width: 250px;
-  
   margin-top: 60px;
-
 }
 
 /* модификатор темной темы ячейки */
 .table__cell_theme_dark {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
@@ -250,8 +231,7 @@
   box-sizing: border-box;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: bolder;
-  
+  font-weight: bold;
 }
 /*модификатор темной темы заголовка ячейки таблицы*/
 .table__heading_theme_dark{
@@ -266,7 +246,6 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-
 }
 /*модификатор темной темы текста таблицы*/
 .table__text_theme_dark{
@@ -274,7 +253,7 @@
 }
 /*блок Фейнман*/
 .feynman{
-    box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   min-height: 890px;
@@ -285,7 +264,6 @@
 }
 /*элемент изображения*/
 .feynman__illustration{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   width: 867px;
@@ -297,13 +275,13 @@
 }
 /*заголовок блока Фейнмана*/
 .feynman__title{
-  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
-  font-weight: bolder;
+  font-weight: bold;
   display: flex;
-  margin: auto;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -313,13 +291,12 @@
 }
 /*Подзаголовок блока Фейнмана*/
 .feynman__subtitle{
-  box-sizing: border-box;
-  padding: 0;
+  padding: 0;  
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -327,7 +304,6 @@
 }
 /*Ссылка в блоке Фейнмана*/
 .feynman__link{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -348,19 +324,18 @@
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
-  min-height: 600px;
-  max-height: 756px;
 }
 /*элемент описание изображения треугольника*/
 .kaufman__triangle{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   position: absolute;
-  width: 877px;
-  height: 877px;
   top:0px;
   right: -210px;
+  width: 877px;
+  height: 877px;
 }
 /*блок подвала сайта*/
 .footer{
@@ -371,29 +346,28 @@
   padding-top: 60px;
   padding-bottom: 40px;
   min-height: 350px;
-  max-height: 500px;
 }
 /*элемент описывает расположение колонок подвала*/
 .footer__columns{
   box-sizing: border-box;
   padding: 0;
-  position: relative;
-  min-height: 350px;
   width: 90%;
   display: flex;
   margin: auto;
-  flex-wrap: wrap;
   justify-content:space-between;
- 
+}
+/*элемент описывает колонку подвала*/
+.footer__column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /*модификатор описывающий положение элемента автора в подвале*/
 .footer__column_content_copyright{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-basis: 711px;
-  
 }
 /*модификатор описывающий положение элемента "О практикуме"в подвале*/
 .footer__column_content_info{
@@ -412,6 +386,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  height: 35px;
 }
 /*элемент описывает автора работы*/
 .footer__author{
@@ -419,25 +394,21 @@
   margin: 0;
   padding: 0;
   color:white;
-  position:absolute;
-padding-top: 18px;
-padding-bottom: 18px;
-left: 0;
-bottom: 0;
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 /*заголовок колонки подвала*/
 .footer__column-heading{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
   color:white;
   line-height: 30px;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 /*элемент описывает ссылки в подвале*/
 .footer__column-links{
