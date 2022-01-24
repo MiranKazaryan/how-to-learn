@@ -1,0 +1,6 @@
+/*модификатор расположения логотипа в шапке сайта*/
+.logo_place_header{
+    position:absolute;
+    top:30px;
+    left: 64px;
+  }

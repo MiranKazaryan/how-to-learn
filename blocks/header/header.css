@@ -1,0 +1,16 @@
+/*блок шапки сайта*/
+.header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* выше установили ограничения для секции */
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+    }

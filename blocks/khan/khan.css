@@ -1,0 +1,8 @@
+.khan{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 105px;
+      /* выше установили ограничения для секции */
+    background-color: #f2f2f2;
+}

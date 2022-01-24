@@ -1,0 +1,9 @@
+/*элемент описывает расположение колонок подвала*/
+.footer__columns{
+    padding: 0;
+    width: 90%;
+    justify-content:space-between;
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+  }

@@ -1,0 +1,10 @@
+/*блок Фейнман*/
+.feynman{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 890px;
+      /* выше установили ограничения для секции */
+    background-color: #f2f2f2;
+    position: relative;
+  }

@@ -1,0 +1,9 @@
+/*модификатор описывающий положение элемента автора в подвале*/
+.footer__column_content_copyright{
+    margin: 0;
+    padding: 0;
+    flex-basis: 711px;
+    display: flex;
+    min-height: 250px;
+    justify-content:space-between;
+  }

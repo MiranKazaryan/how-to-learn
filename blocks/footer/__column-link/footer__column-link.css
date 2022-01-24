@@ -1,0 +1,16 @@
+/*элемент ссылка в подвале*/
+.footer__column-link{
+    margin: 0;
+    padding: 0;
+    color:white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+  }
+  .footer__column-link:hover{
+    opacity: .3;
+  }

@@ -1,0 +1,11 @@
+/*элемент описывает автора работы*/
+.footer__author{
+    margin: 0;
+    padding: 0;
+    color:white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+  }

@@ -1,0 +1,11 @@
+/*главное изображение шапки сайта*/
+.header__main-illustration{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 765px;
+    height: 608px;
+    z-index: 1;
+  }
